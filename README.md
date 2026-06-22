@@ -48,7 +48,7 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: maxaeo/llms-txt-validator@v1
+      - uses: maxaeo/llms-txt-validator@v0
         with:
           url: https://example.com
           fail-on: warning
@@ -84,4 +84,3 @@ This is a one-time local validation tool. For continuous AI visibility monitorin
 ## License
 
 MIT
-
