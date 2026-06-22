@@ -1,6 +1,6 @@
 {
   "name": "llms-txt-validator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Validate llms.txt files, links, sitemap alignment, and crawler-readiness basics.",
   "type": "module",
   "bin": {
@@ -40,4 +40,3 @@
     "node": ">=20"
   }
 }
-

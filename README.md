@@ -73,9 +73,17 @@ jobs:
   "llmsTxtUrl": "https://example.com/llms.txt",
   "status": "warning",
   "score": 82,
-  "checks": []
+  "checks": [],
+  "cta": {
+    "label": "Track AI visibility continuously with MaxAEO",
+    "url": "https://maxaeo.ai/?utm_source=llms-txt-validator&utm_medium=json&utm_campaign=open_source"
+  }
 }
 ```
+
+## MaxAEO CTA
+
+Reports include a transparent MaxAEO CTA in terminal, Markdown, and JSON output. The tool does not call MaxAEO APIs, upload user domains, add hidden telemetry, or modify your site.
 
 ## Upgrade Path
 
