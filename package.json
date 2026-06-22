@@ -1,0 +1,43 @@
+{
+  "name": "llms-txt-validator",
+  "version": "0.1.0",
+  "description": "Validate llms.txt files, links, sitemap alignment, and crawler-readiness basics.",
+  "type": "module",
+  "bin": {
+    "llms-txt-validator": "bin/llms-txt-validator.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "action.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "start": "node bin/llms-txt-validator.js"
+  },
+  "keywords": [
+    "llms.txt",
+    "ai-visibility",
+    "aeo",
+    "seo",
+    "robots.txt",
+    "sitemap",
+    "crawler"
+  ],
+  "author": "MaxAEO",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxaeo/llms-txt-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxaeo/llms-txt-validator/issues"
+  },
+  "homepage": "https://github.com/maxaeo/llms-txt-validator#readme",
+  "engines": {
+    "node": ">=20"
+  }
+}
+

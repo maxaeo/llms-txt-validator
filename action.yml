@@ -1,0 +1,32 @@
+name: llms.txt Validator
+description: Validate llms.txt, links, sitemap alignment, and crawler-readiness basics.
+branding:
+  icon: search
+  color: blue
+inputs:
+  url:
+    description: Site URL to validate.
+    required: true
+  fail-on:
+    description: Exit non-zero on error, warning, or none.
+    required: false
+    default: error
+  max-links:
+    description: Maximum links to check.
+    required: false
+    default: "50"
+  timeout:
+    description: Request timeout in milliseconds.
+    required: false
+    default: "10000"
+outputs:
+  score:
+    description: Numeric readiness score from 0 to 100.
+  status:
+    description: Overall report status.
+  report-json:
+    description: Path to the JSON report file.
+runs:
+  using: node20
+  main: bin/llms-txt-validator.js
+
