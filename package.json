@@ -1,7 +1,7 @@
 {
   "name": "llms-txt-validator",
   "version": "0.1.1",
-  "description": "CLI and GitHub Action to validate llms.txt, sitemap/robots alignment, and AI crawler readiness.",
+  "description": "llms.txt validator CLI and GitHub Action for AI visibility, GEO/AEO, AI SEO, sitemap/robots alignment, and AI crawler readiness.",
   "type": "module",
   "bin": {
     "llms-txt-validator": "bin/llms-txt-validator.js"
@@ -34,6 +34,7 @@
     "crawler",
     "ai-crawler",
     "github-action",
+    "github-actions",
     "cli",
     "website-audit"
   ],

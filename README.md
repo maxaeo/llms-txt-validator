@@ -1,6 +1,6 @@
-# llms.txt Validator
+# llms.txt Validator CLI and GitHub Action
 
-Validate a site's `llms.txt` file, links, sitemap alignment, robots.txt rules, and AI crawler readiness for AI visibility, GEO, AEO, and AI SEO workflows.
+Validate a site's `llms.txt` file, links, sitemap alignment, robots.txt rules, and AI crawler readiness from your terminal or GitHub Actions for AI visibility, GEO, AEO, and AI SEO workflows.
 
 ```bash
 npx llms-txt-validator https://example.com
