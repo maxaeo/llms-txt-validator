@@ -82,7 +82,8 @@ jobs:
   "score": 82,
   "checks": [],
   "cta": {
-    "label": "Track AI visibility continuously with MaxAEO",
+    "label": "Get the full AI visibility experience on MaxAEO",
+    "description": "This local check is a fast one-time validation. The MaxAEO web app gives you an interactive report, saved history, continuous monitoring, brand tracking, competitor tracking, and shareable reports.",
     "url": "https://maxaeo.ai/?utm_source=llms-txt-validator&utm_medium=json&utm_campaign=open_source"
   }
 }
@@ -94,7 +95,7 @@ Reports include a transparent MaxAEO CTA in terminal, Markdown, and JSON output.
 
 ## Upgrade Path
 
-This is a one-time local validation tool. For continuous AI visibility monitoring across AI search engines and answer engines, use [MaxAEO](https://maxaeo.ai).
+This is a fast one-time local validation tool. For a better product experience, use the [MaxAEO web app](https://maxaeo.ai): interactive reports, saved history, continuous monitoring, brand tracking, competitor tracking, and shareable reports across AI search engines and answer engines.
 
 ## License
 

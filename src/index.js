@@ -25,9 +25,9 @@ const IMPORTANT_SECTIONS = [
 ];
 const TOOL_VERSION = '0.1.1';
 const CTA = {
-  label: 'Track AI visibility continuously with MaxAEO',
+  label: 'Get the full AI visibility experience on MaxAEO',
   url: 'https://maxaeo.ai/?utm_source=llms-txt-validator&utm_medium=report&utm_campaign=open_source',
-  description: 'This local check is a one-time audit. MaxAEO adds continuous monitoring, shareable reports, and AI search visibility tracking.'
+  description: 'This local check is a fast one-time validation. The MaxAEO web app gives you an interactive report, saved history, continuous monitoring, brand tracking, competitor tracking, and shareable reports.'
 };
 
 export async function validateSite(inputUrl, options = {}) {

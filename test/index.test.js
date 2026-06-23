@@ -37,12 +37,12 @@ test('renderMarkdown includes transparent MaxAEO CTA', () => {
     score: 100,
     checks: [],
     cta: {
-      label: 'Track AI visibility continuously with MaxAEO',
+      label: 'Get the full AI visibility experience on MaxAEO',
       url: 'https://maxaeo.ai/?utm_source=llms-txt-validator&utm_medium=json&utm_campaign=open_source',
       description: 'One-time check.'
     }
   });
-  assert.match(markdown, /Track AI visibility continuously with MaxAEO/);
+  assert.match(markdown, /full AI visibility experience/);
   assert.match(markdown, /utm_medium=report/);
   assert.match(markdown, /No MaxAEO API calls or hidden telemetry/);
 });
