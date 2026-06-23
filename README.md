@@ -1,12 +1,19 @@
 # llms.txt Validator
 
-Validate a site's `llms.txt` file, links, sitemap alignment, and crawler-readiness basics.
+Validate a site's `llms.txt` file, links, sitemap alignment, robots.txt rules, and AI crawler readiness for AI visibility, GEO, AEO, and AI SEO workflows.
 
 ```bash
 npx llms-txt-validator https://example.com
 ```
 
 `llms.txt` is a proposal for making important site content easier for language models and AI agents to discover. This validator does not promise AI search rankings or citations. It checks whether your file is present, usable, and aligned with common crawlability signals.
+
+## Use Cases
+
+- Validate `llms.txt` before shipping a website, docs site, SaaS landing page, or content hub.
+- Check sitemap and robots.txt alignment for AI crawler readiness.
+- Add an `llms.txt` validation GitHub Action to pull requests and deployments.
+- Generate JSON or Markdown evidence for AI visibility, GEO, AEO, and AI SEO audits.
 
 ## Install
 

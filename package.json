@@ -1,7 +1,7 @@
 {
   "name": "llms-txt-validator",
   "version": "0.1.1",
-  "description": "Validate llms.txt files, links, sitemap alignment, and crawler-readiness basics.",
+  "description": "CLI and GitHub Action to validate llms.txt, sitemap/robots alignment, and AI crawler readiness.",
   "type": "module",
   "bin": {
     "llms-txt-validator": "bin/llms-txt-validator.js"
@@ -19,12 +19,23 @@
   },
   "keywords": [
     "llms.txt",
+    "llms-txt",
     "ai-visibility",
+    "ai-search",
+    "ai-seo",
     "aeo",
+    "geo",
+    "generative-engine-optimization",
+    "answer-engine-optimization",
     "seo",
     "robots.txt",
+    "robots-txt",
     "sitemap",
-    "crawler"
+    "crawler",
+    "ai-crawler",
+    "github-action",
+    "cli",
+    "website-audit"
   ],
   "author": "MaxAEO",
   "license": "MIT",
